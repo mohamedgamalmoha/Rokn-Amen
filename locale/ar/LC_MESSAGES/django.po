@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-17 20:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: accounts/admin.py:28
+msgid "Personal Info"
+msgstr "المعلومات الشخصية"
+
+#: accounts/admin.py:30 accounts/models.py:26
+msgid "Education"
+msgstr "التعليم"
+
+#: accounts/admin.py:31
+msgid "Work Info"
+msgstr "معلومات العمل"
+
+#: accounts/admin.py:32
+msgid "Address Info"
+msgstr "العنوان"
+
+#: accounts/admin.py:33
+msgid "Extra"
+msgstr "إضافي"
+
+#: accounts/admin.py:34
+msgid "Permissions"
+msgstr "الصلاحيات"
+
+#: accounts/admin.py:35 info/admin.py:27 info/admin.py:47 info/admin.py:58
+#: info/admin.py:68
+msgid "Important Dates"
+msgstr "التواريخ المهمة"
+
+#: accounts/apps.py:8
+msgid "Accounts"
+msgstr "الحسابات"
+
+#: accounts/enums.py:6
+msgid "High School"
+msgstr "الثانوية العامة"
+
+#: accounts/enums.py:7
+msgid "Diploma"
+msgstr "دبلوم"
+
+#: accounts/enums.py:8
+msgid "Bachelor"
+msgstr "بكالوريوس"
+
+#: accounts/enums.py:9
+msgid "Master"
+msgstr "ماجستير"
+
+#: accounts/enums.py:10
+msgid "Doctorate"
+msgstr "دكتوراه"
+
+#: accounts/enums.py:14
+msgid "Male"
+msgstr "ذكر"
+
+#: accounts/enums.py:15
+msgid "Female"
+msgstr "أنثى"
+
+#: accounts/models.py:10 info/models.py:112
+msgid "Full Name"
+msgstr "الاسم بالكامل"
+
+#: accounts/models.py:11
+msgid "Gender"
+msgstr "النوع"
+
+#: accounts/models.py:13
+msgid "Jop Title"
+msgstr "المسمى الوظيفي"
+
+#: accounts/models.py:14
+msgid "Work Place"
+msgstr "مكان العمل"
+
+#: accounts/models.py:15
+msgid "Department"
+msgstr "القسم"
+
+#: accounts/models.py:17 info/models.py:114
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: accounts/models.py:18
+msgid "National ID"
+msgstr "الرقم القومي"
+
+#: accounts/models.py:32
+msgid "Specialization"
+msgstr "التخصص"
+
+#: accounts/models.py:33
+msgid "e.g. Computer Science, Business Administration, Engineering"
+msgstr "مثال: علوم الحاسب، إدارة الأعمال، الهندسة"
+
+#: accounts/models.py:35
+msgid "Birth Date"
+msgstr "تاريخ الميلاد"
+
+#: accounts/models.py:37
+msgid "Conservative"
+msgstr "المحافظة"
+
+#: accounts/models.py:38
+msgid "State"
+msgstr "الولاية"
+
+#: accounts/models.py:39
+msgid "Region"
+msgstr "المنطقة"
+
+#: accounts/models.py:40
+msgid "Address"
+msgstr "العنوان"
+
+#: accounts/models.py:42
+msgid "Skills"
+msgstr "المهارات"
+
+#: accounts/models.py:43
+msgid "Ready to Join"
+msgstr "جاهز للانضمام"
+
+#: accounts/models.py:44
+msgid "Recommendations"
+msgstr "التوصيات"
+
+#: core/settings.py:156
+msgid "English"
+msgstr "الإنجليزية"
+
+#: core/settings.py:157
+msgid "Arabic"
+msgstr "العربية"
+
+#: core/settings.py:197 core/settings.py:200 core/settings.py:203
+msgid "Rokn Amen"
+msgstr "ركن آمن"
+
+#: core/settings.py:221
+msgid "Welcome To Rokn Amen"
+msgstr "مرحباً بك في ركن آمن"
+
+#: core/settings.py:224
+msgid "Rokn Amen Development Team"
+msgstr "فريق تطوير ركن آمن"
+
+#: core/settings.py:241
+msgid "Home"
+msgstr "الرئيسية"
+
+#: info/admin.py:26 info/admin.py:46 info/admin.py:56 info/admin.py:67
+msgid "Main Info"
+msgstr "المعلومات الأساسية"
+
+#: info/admin.py:57
+msgid "More Info"
+msgstr "مزيد من المعلومات"
+
+#: info/apps.py:8
+msgid "Info"
+msgstr "المعلومات الأساسية"
+
+#: info/enums.py:6
+msgid "Facebook"
+msgstr "فيسبوك"
+
+#: info/enums.py:7
+msgid "Twitter"
+msgstr "تويتر"
+
+#: info/enums.py:8
+msgid "Instagram"
+msgstr "انستجرام"
+
+#: info/enums.py:9
+msgid "Instagram 2"
+msgstr "انستجرام 2"
+
+#: info/enums.py:10
+msgid "LinkedIn"
+msgstr "لينكد إن"
+
+#: info/enums.py:11
+msgid "TikTok"
+msgstr "تيك توك"
+
+#: info/enums.py:12
+msgid "YouTube"
+msgstr "يوتيوب"
+
+#: info/enums.py:13
+msgid "Waze"
+msgstr "ويز"
+
+#: info/enums.py:14
+msgid "Phone Number 1"
+msgstr "رقم الهاتف 1"
+
+#: info/enums.py:15
+msgid "Phone Number 2"
+msgstr "رقم الهاتف 2"
+
+#: info/mixins.py:42
+msgid "Thumbnail"
+msgstr "الصورة المصغرة"
+
+#: info/mixins.py:43 info/models.py:10 info/models.py:44 info/models.py:60
+#: info/models.py:77
+msgid "Image"
+msgstr "الصورة"
+
+#: info/models.py:8 info/models.py:58 info/models.py:75 info/models.py:92
+msgid "Title"
+msgstr "العنوان"
+
+#: info/models.py:9 info/models.py:59 info/models.py:76 info/models.py:93
+msgid "Description"
+msgstr "الوصف"
+
+#: info/models.py:11 info/models.py:29 info/models.py:62 info/models.py:79
+#: info/models.py:99 info/models.py:116
+msgid "Create At"
+msgstr "تاريخ الإنشاء"
+
+#: info/models.py:12 info/models.py:30 info/models.py:63 info/models.py:80
+#: info/models.py:100 info/models.py:117
+msgid "Update At"
+msgstr "تاريخ التحديث"
+
+#: info/models.py:15 info/models.py:16 info/models.py:25 info/models.py:43
+msgid "Website Main Info"
+msgstr "المعلومات الرئيسية للموقع"
+
+#: info/models.py:26
+msgid "Platform"
+msgstr "المنصة"
+
+#: info/models.py:27
+msgid "Link / Phone Number"
+msgstr "الرابط / رقم الهاتف"
+
+#: info/models.py:28 info/models.py:45 info/models.py:61 info/models.py:78
+msgid "Active"
+msgstr "نشط"
+
+#: info/models.py:33 info/models.py:34
+msgid "Social Media"
+msgstr "وسائل التواصل الاجتماعي"
+
+#: info/models.py:46
+msgid "Setting it to false, makes the image disappear from the page"
+msgstr "تعيينها على غير نشط يجعل الصورة تختفي من الصفحة"
+
+#: info/models.py:47
+msgid "Order By"
+msgstr "الترتيب حسب"
+
+#: info/models.py:48
+msgid "Creation Date"
+msgstr "تاريخ الإنشاء"
+
+#: info/models.py:49
+msgid "Update Date"
+msgstr "تاريخ التحديث"
+
+#: info/models.py:52
+msgid "Home Page Image"
+msgstr "صورة الصفحة الرئيسية"
+
+#: info/models.py:53
+msgid "Home Page Images"
+msgstr "صور الصفحة الرئيسية"
+
+#: info/models.py:66
+msgid "Service"
+msgstr "الخدمة"
+
+#: info/models.py:67
+msgid "Services"
+msgstr "الخدمات"
+
+#: info/models.py:83 info/models.py:84
+msgid "About Us"
+msgstr "من نحن"
+
+#: info/models.py:94
+msgid "Start Time"
+msgstr "وقت البداية"
+
+#: info/models.py:95
+msgid "End Time"
+msgstr "وقت النهاية"
+
+#: info/models.py:96
+msgid "Location"
+msgstr "الموقع"
+
+#: info/models.py:97
+msgid "Event Image"
+msgstr "صورة الفعالية"
+
+#: info/models.py:98
+msgid "Is Active"
+msgstr "نشط"
+
+#: info/models.py:103
+msgid "Event"
+msgstr "الفعالية"
+
+#: info/models.py:104
+msgid "Events"
+msgstr "الفعاليات"
+
+#: info/models.py:113
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: info/models.py:115
+msgid "Message"
+msgstr "الرسالة"
+
+#: info/models.py:120 info/models.py:121
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+msgid "Dashboard"
+msgstr "لوحة القيادة"
+
+msgid "Account"
+msgstr "الحساب"
+
+msgid "Please enter your old password, for security's sake, and then enter your new password twice so we can verify you typed it in correctly."
+msgstr "يرجى إدخال كلمة المرور القديمة الخاصة بك، لأسباب أمنية، ثم إدخال كلمة المرور الجديدة مرتين حتى نتمكن من التحقق من صحة إدخالها."
+
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "شكراً لك على قضاء بعض الوقت في الموقع اليوم."
