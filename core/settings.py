@@ -51,6 +51,7 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'jazzmin',
+    'modeltranslation',
     'corsheaders',
     "django.contrib.admin",
     "django.contrib.auth",
@@ -61,6 +62,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'accounts',
+    'info',
 ]
 
 MIDDLEWARE = [
@@ -145,8 +147,25 @@ USE_L10N = True
 
 USE_TZ = True
 
+
+# Language Configuration
 IS_MONOLINGUAL = False
 
+LANGUAGES = [
+    ('ar', _('Arabic')),
+    ('en', _('English')),
+]
+
+MODELTRANSLATION_FALLBACK_LANGUAGES = {
+    'default': ('en',),  # Fallback language for all other languages
+}
+
+MODELTRANSLATION_AUTO_POPULATE = True  # Automatically populate untranslated fields with the default language value
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'  # Default language for the admin
+MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'en'  # Prepopulate translation fields from this language
+TRANSLATABLE_MODEL_MODULES = [
+    'info.models',
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
