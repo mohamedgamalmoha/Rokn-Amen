@@ -41,7 +41,7 @@ class User(AbstractUser):
 
     skills = models.TextField(blank=True, null=True, verbose_name=_("Skills"))
     ready_to_join = models.BooleanField(default=False, verbose_name=_("Ready to Join"))
-    recommendations = models.TextField(blank=True, null=True, verbose_name=_("Skills"))
+    recommendations = models.TextField(blank=True, null=True, verbose_name=_("Recommendations"))
 
     first_name = None
     last_name = None
