@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 20:03+0000\n"
+"POT-Creation-Date: 2025-11-07 22:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,27 +23,27 @@ msgstr ""
 msgid "Personal Info"
 msgstr "المعلومات الشخصية"
 
-#: accounts/admin.py:30 accounts/models.py:26
+#: accounts/admin.py:41 accounts/models.py:27
 msgid "Education"
 msgstr "التعليم"
 
-#: accounts/admin.py:31
+#: accounts/admin.py:42
 msgid "Work Info"
 msgstr "معلومات العمل"
 
-#: accounts/admin.py:32
+#: accounts/admin.py:43
 msgid "Address Info"
 msgstr "العنوان"
 
-#: accounts/admin.py:33
+#: accounts/admin.py:44
 msgid "Extra"
 msgstr "إضافي"
 
-#: accounts/admin.py:34
+#: accounts/admin.py:45
 msgid "Permissions"
 msgstr "الصلاحيات"
 
-#: accounts/admin.py:35 info/admin.py:27 info/admin.py:47 info/admin.py:58
+#: accounts/admin.py:46 info/admin.py:27 info/admin.py:47 info/admin.py:58
 #: info/admin.py:68
 msgid "Important Dates"
 msgstr "التواريخ المهمة"
@@ -80,71 +80,87 @@ msgstr "ذكر"
 msgid "Female"
 msgstr "أنثى"
 
-#: accounts/models.py:10 info/models.py:112
+#: accounts/models.py:10
+msgid "Employee ID"
+msgstr "الرقم التوظيفي"
+
+#: accounts/models.py:11 info/models.py:112
 msgid "Full Name"
 msgstr "الاسم بالكامل"
 
-#: accounts/models.py:11
+#: accounts/models.py:12
 msgid "Gender"
 msgstr "النوع"
 
-#: accounts/models.py:13
+#: accounts/models.py:14
 msgid "Jop Title"
 msgstr "المسمى الوظيفي"
 
-#: accounts/models.py:14
+#: accounts/models.py:15
 msgid "Work Place"
 msgstr "مكان العمل"
 
-#: accounts/models.py:15
+#: accounts/models.py:16
 msgid "Department"
 msgstr "القسم"
 
-#: accounts/models.py:17 info/models.py:114
+#: accounts/models.py:18 info/models.py:114
 msgid "Phone Number"
 msgstr "رقم الهاتف"
 
-#: accounts/models.py:18
+#: accounts/models.py:19
 msgid "National ID"
 msgstr "الرقم القومي"
 
-#: accounts/models.py:32
+#: accounts/models.py:33
 msgid "Specialization"
 msgstr "التخصص"
 
-#: accounts/models.py:33
+#: accounts/models.py:34
 msgid "e.g. Computer Science, Business Administration, Engineering"
 msgstr "مثال: علوم الحاسب، إدارة الأعمال، الهندسة"
 
-#: accounts/models.py:35
+#: accounts/models.py:36
 msgid "Birth Date"
 msgstr "تاريخ الميلاد"
 
-#: accounts/models.py:37
+#: accounts/models.py:38
+msgid "Country"
+msgstr "البلد"
+
+#: accounts/models.py:39
+msgid "City"
+msgstr "المدينة"
+
+#: accounts/models.py:40
+msgid "Branch"
+msgstr "الفرع"
+
+#: accounts/models.py:41
 msgid "Conservative"
 msgstr "المحافظة"
 
-#: accounts/models.py:38
+#: accounts/models.py:42
 msgid "State"
 msgstr "الولاية"
 
-#: accounts/models.py:39
+#: accounts/models.py:43
 msgid "Region"
 msgstr "المنطقة"
 
-#: accounts/models.py:40
+#: accounts/models.py:44
 msgid "Address"
 msgstr "العنوان"
 
-#: accounts/models.py:42
+#: accounts/models.py:46
 msgid "Skills"
 msgstr "المهارات"
 
-#: accounts/models.py:43
+#: accounts/models.py:47
 msgid "Ready to Join"
 msgstr "جاهز للانضمام"
 
-#: accounts/models.py:44
+#: accounts/models.py:48
 msgid "Recommendations"
 msgstr "التوصيات"
 
@@ -353,8 +369,12 @@ msgstr "لوحة القيادة"
 msgid "Account"
 msgstr "الحساب"
 
-msgid "Please enter your old password, for security's sake, and then enter your new password twice so we can verify you typed it in correctly."
-msgstr "يرجى إدخال كلمة المرور القديمة الخاصة بك، لأسباب أمنية، ثم إدخال كلمة المرور الجديدة مرتين حتى نتمكن من التحقق من صحة إدخالها."
+msgid ""
+"Please enter your old password, for security's sake, and then enter your "
+"new password twice so we can verify you typed it in correctly."
+msgstr ""
+"يرجى إدخال كلمة المرور القديمة الخاصة بك، لأسباب أمنية، ثم إدخال كلمة "
+"المرور الجديدة مرتين حتى نتمكن من التحقق من صحة إدخالها."
 
 msgid "Thanks for spending some quality time with the Web site today."
 msgstr "شكراً لك على قضاء بعض الوقت في الموقع اليوم."
