@@ -24,6 +24,7 @@ class LogEntryAdmin(admin.ModelAdmin):
 
 
 class CustomUserAdmin(UserAdmin):
+    list_display = ("username", "email", "full_name", "jop_title", "is_staff")
     fieldsets = (
         (_("Personal Info"), {
             "fields": (
@@ -46,7 +47,7 @@ class CustomUserAdmin(UserAdmin):
         (_("Important Dates"), {"fields": ("last_login", "date_joined")}),
     )
 
-    list_filter = ("is_staff", "is_superuser", "is_active")
+    list_filter = ("is_staff", "is_superuser", "is_active", "ready_to_join")
     ordering = ("-date_joined",)
     filter_horizontal = ()
 
