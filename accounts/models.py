@@ -35,6 +35,7 @@ class User(AbstractUser):
     )
     birth_date = models.DateField(blank=True, null=True, verbose_name=_("Birth Date"))
 
+    country = models.CharField(max_length=50, blank=True, null=True, verbose_name=_("Country"))
     city = models.CharField(max_length=50, blank=True, null=True, verbose_name=_("City"))
     branch = models.CharField(max_length=50, blank=True, null=True, verbose_name=_("Branch"))
     conservative = models.CharField(max_length=50, blank=True, null=True, verbose_name=_("Conservative"))
