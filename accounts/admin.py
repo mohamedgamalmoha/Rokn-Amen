@@ -25,11 +25,22 @@ class LogEntryAdmin(admin.ModelAdmin):
 
 class CustomUserAdmin(UserAdmin):
     fieldsets = (
-        (_("Personal Info"), {"fields": ("username", "full_name", "phone_number", "email", "gender", "birth_date",
-                                         "national_id", "password")}),
+        (_("Personal Info"), {
+            "fields": (
+                "employee_id",
+                "username",
+                "full_name",
+                "phone_number",
+                "email",
+                "gender",
+                "birth_date",
+                "national_id",
+                "password",
+            ),
+        }),
         (_("Education"), {"fields": ("education_level", "specialization")}),
         (_("Work Info"), {"fields": ("jop_title", "work_place", "department")}),
-        (_("Address Info"), {"fields": ("conservative", "state", "region", "address")}),
+        (_("Address Info"), {"fields": ("country", "city", "branch", "conservative", "state", "region", "address")}),
         (_("Extra"), {"fields": ("skills", "ready_to_join", "recommendations")}),
         (_("Permissions"), {"fields": ("is_active",  "is_staff", "is_superuser", "user_permissions")}),
         (_("Important Dates"), {"fields": ("last_login", "date_joined")}),
